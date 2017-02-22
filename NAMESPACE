@@ -28,6 +28,7 @@ export(AnotA, discrimPwr, discrimSS, discrim, #discrimr,
        dprime_table, dprime_test, dprime_compare, posthoc,
        dod, dod_fit, dodControl, dodSim, dodPwr, optimal_tau,
        par2prob_dod, dod_nll, dod_null, dod_null_tau)
+export(myF)
 
 S3method(print, dod)
 S3method(confint, dod_fit)
